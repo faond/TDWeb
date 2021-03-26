@@ -1,0 +1,35 @@
+.name{
+    color : rgb(138, 223, 226);
+}
+
+html{
+    background-color: #c97c7c;
+    color: white;
+}
+  
+  .heroes_container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+  
+  .hero_container {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+  
+
+  
+  .hero_img {
+    height: 30vh;
+    width: 20vw;
+  }
+  
